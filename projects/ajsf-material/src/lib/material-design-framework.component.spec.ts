@@ -3,7 +3,7 @@ import { CommonModule } from '@angular/common';
 import {
   JsonSchemaFormModule,
   WidgetLibraryModule
-} from '@ajsf/core';
+} from '@cfstratos/ajsf-core';
 import { MaterialDesignFrameworkComponent } from './material-design-framework.component';
 
 describe('FwBootstrap4Component', () => {

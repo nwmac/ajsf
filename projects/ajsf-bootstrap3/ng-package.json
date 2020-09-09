@@ -6,11 +6,11 @@
     "umdModuleIds": {
       "lodash/cloneDeep": "lodash-es",
       "lodash/map": "lodash-es",
-      "@ajsf/core": "@ajsf/core"
+      "@cfstratos/ajsf-core": "@cfstratos/ajsf-core"
     }
   },
   "whitelistedNonPeerDependencies": [
     "lodash-es",
-    "@ajsf/core"
+    "@cfstratos/ajsf-core"
   ]
 }

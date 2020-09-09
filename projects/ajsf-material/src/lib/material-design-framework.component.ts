@@ -1,5 +1,5 @@
 import {ChangeDetectorRef, Component, Input, OnChanges, OnInit} from '@angular/core';
-import {isDefined, JsonSchemaFormService} from '@ajsf/core';
+import {isDefined, JsonSchemaFormService} from '@cfstratos/ajsf-core';
 import cloneDeep from 'lodash/cloneDeep';
 
 @Component({

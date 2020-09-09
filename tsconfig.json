@@ -28,11 +28,11 @@
       "lodash/*": [
         "node_modules/@types/lodash-es/*"
       ],
-      "@ajsf/core": [
-        "dist/@ajsf/core"
+      "@cfstratos/ajsf-core": [
+        "dist/@cfstratos/ajsf-core"
       ],
-      "@ajsf/core/*": [
-        "dist/@ajsf/core/*"
+      "@cfstratos/ajsf-core/*": [
+        "dist/@cfstratos/ajsf-core/*"
       ],
       "@ajsf/bootstrap3": [
         "dist/@ajsf/bootstrap3"
@@ -46,11 +46,11 @@
       "@ajsf/bootstrap4/*": [
         "dist/@ajsf/bootstrap4/*"
       ],
-      "@ajsf/material": [
-        "dist/@ajsf/material"
+      "@cfstratos/ajsf-material": [
+        "dist/@cfstratos/ajsf-material"
       ],
-      "@ajsf/material/*": [
-        "dist/@ajsf/material/*"
+      "@cfstratos/ajsf-material/*": [
+        "dist/@cfstratos/ajsf-material/*"
       ]
     }
   },

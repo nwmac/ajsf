@@ -1,5 +1,5 @@
 {
-  "name": "@ajsf/material",
+  "name": "@cfstratos/ajsf-material",
   "version": "0.0.0",
   "description": "Angular JSON Schema Form builder using Angular Material UI",
   "author": "https://github.com/hamzahamidi/ajsf/graphs/contributors",
@@ -27,15 +27,12 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/hamzahamidi/ajsf"
-  },
-  "bugs": {
-    "url": "https://github.com/hamzahamidi/ajsf/issues"
+    "url": "git+https://github.com/nwmac/ajsf"
   },
   "private": false,
   "dependencies": {
     "lodash-es": "^4.17.15",
-    "@ajsf/core": "~0.0.0"
+    "@cfstratos/ajsf-core": "~0.1.5"
   },
   "peerDependencies": {
     "@angular/flex-layout": ">=9.0.0-beta.28",

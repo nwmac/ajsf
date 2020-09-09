@@ -16,10 +16,10 @@ import { AceEditorDirective } from './ace-editor.directive';
 import { DemoComponent } from './demo.component';
 import { DemoRootComponent } from './demo-root.component';
 import { routes } from './demo.routes';
-import { JsonSchemaFormModule } from '@ajsf/core';
+import { JsonSchemaFormModule } from '@cfstratos/ajsf-core';
 import { Bootstrap4FrameworkModule } from '@ajsf/bootstrap4';
 import { Bootstrap3FrameworkModule } from '@ajsf/bootstrap3';
-import { MaterialDesignFrameworkModule } from '@ajsf/material';
+import { MaterialDesignFrameworkModule } from '@cfstratos/ajsf-material';
 
 @NgModule({
   declarations: [AceEditorDirective, DemoComponent, DemoRootComponent],
