@@ -129,7 +129,7 @@
         }
       }
     },
-    "@cfstratos/ajsf-core": {
+    "@ajsf/core": {
       "root": "projects/ajsf-core",
       "sourceRoot": "projects/ajsf-core/src",
       "projectType": "library",
@@ -249,7 +249,7 @@
         }
       }
     },
-    "@cfstratos/ajsf-material": {
+    "@ajsf/material": {
       "projectType": "library",
       "root": "projects/ajsf-material",
       "sourceRoot": "projects/ajsf-material/src",
