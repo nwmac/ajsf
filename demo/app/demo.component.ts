@@ -26,13 +26,15 @@ import { JsonPointer } from '@cfstratos/ajsf-core';
 })
 export class DemoComponent implements OnInit {
   examples: any = Examples;
-  languageList: any = ['en', 'fr', 'it', 'pt', 'zh'];
+  languageList: any = ['de', 'en', 'es', 'fr', 'it', 'pt', 'zh'];
   languages: any = {
+    'de': 'German',
     'en': 'English',
+    'es': 'Spanish',
     'fr': 'French',
     'it': 'Italian',
     'pt': 'Portuguese',
-    'zh': 'Chinese',
+    'zh': 'Chinese'
   };
   frameworkList: any = ['material-design', 'bootstrap-3', 'bootstrap-4', 'no-framework'];
   frameworks: any = {
