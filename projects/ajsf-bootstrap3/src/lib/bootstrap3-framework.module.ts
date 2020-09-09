@@ -7,7 +7,7 @@ import {
   FrameworkLibraryService,
   JsonSchemaFormModule,
   WidgetLibraryModule
-} from '@ajsf/core';
+} from '@cfstratos/ajsf-core';
 import {Bootstrap3Framework} from './bootstrap3.framework';
 import {Bootstrap3FrameworkComponent} from './bootstrap3-framework.component';
 

@@ -1,15 +1,15 @@
-# @ajsf/material
+# @cfstratos/ajsf-material
 
 ## Getting started
 
 ```shell
-npm install @ajsf/material
+npm install @cfstratos/ajsf-material
 ```
 
 With YARN, run the following:
 
 ```shell
-yarn add @ajsf/material
+yarn add @cfstratos/ajsf-material
 ```
 
 Then import `MaterialDesignFrameworkModule` in your main application module if you want to use `material-angular` UI, like this:
@@ -18,7 +18,7 @@ Then import `MaterialDesignFrameworkModule` in your main application module if y
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
-import { MaterialDesignFrameworkModule } from '@ajsf/material';
+import { MaterialDesignFrameworkModule } from '@cfstratos/ajsf-material';
 
 import { AppComponent } from './app.component';
 
@@ -55,13 +55,13 @@ Where `schema` is a valid JSON schema object, and `onSubmit` calls a function to
 
 ## Code scaffolding
 
-Run `ng generate component component-name --project @ajsf/material` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module --project @ajsf/material`.
-> Note: Don't forget to add `--project @ajsf/material` or else it will be added to the default project in your `angular.json` file.
+Run `ng generate component component-name --project @cfstratos/ajsf-material` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module --project @cfstratos/ajsf-material`.
+> Note: Don't forget to add `--project @cfstratos/ajsf-material` or else it will be added to the default project in your `angular.json` file.
 
 ## Build
 
-Run `ng build @ajsf/material` to build the project. The build artifacts will be stored in the `dist/` directory.
+Run `ng build @cfstratos/ajsf-material` to build the project. The build artifacts will be stored in the `dist/` directory.
 
 ## Running unit tests
 
-Run `ng test @ajsf/material` to execute the unit tests via [Karma](https://karma-runner.github.io).
+Run `ng test @cfstratos/ajsf-material` to execute the unit tests via [Karma](https://karma-runner.github.io).

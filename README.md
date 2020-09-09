@@ -18,10 +18,10 @@ A [JSON Schema](http://json-schema.org) Form builder for Angular, similar to, an
 
 ## Packages
 
-* [`@ajsf/core`](./README.md) [![npm version](https://badge.fury.io/js/%40ajsf%2Fcore.svg)](https://badge.fury.io/js/%40ajsf%2Fcore)
+* [`@cfstratos/ajsf-core`](./README.md) [![npm version](https://badge.fury.io/js/%40ajsf%2Fcore.svg)](https://badge.fury.io/js/%40ajsf%2Fcore)
 * [`@ajsf/bootstrap3`](./projects/ajsf-bootstrap3/README.md) [![npm version](https://badge.fury.io/js/%40ajsf%2Fbootstrap3.svg)](https://badge.fury.io/js/%40ajsf%2Fbootstrap3)
 * [`@ajsf/bootstrap4`](./projects/ajsf-bootstrap4/README.md) [![npm version](https://badge.fury.io/js/%40ajsf%2Fbootstrap4.svg)](https://badge.fury.io/js/%40ajsf%2Fbootstrap4)
-* [`@ajsf/material`](./projects/ajsf-material/README.md) [![npm version](https://badge.fury.io/js/%40ajsf%2Fmaterial.svg)](https://badge.fury.io/js/%40ajsf%2Fmaterial)
+* [`@cfstratos/ajsf-material`](./projects/ajsf-material/README.md) [![npm version](https://badge.fury.io/js/%40ajsf%2Fmaterial.svg)](https://badge.fury.io/js/%40ajsf%2Fmaterial)
 
 ## Check out the live demo and play with the examples
 
@@ -33,16 +33,16 @@ This example playground features over 70 different JSON Schemas for you to try (
 
 ### To install from NPM/YARN and use in your own project
 
-If you want to try out the libraries, you can for example [install @ajsf/material package from NPM](https://www.npmjs.com/package/@ajsf/material) which uses `material-angular` UI. You can use either [NPM](https://www.npmjs.com) or [Yarn](https://yarnpkg.com). To install with NPM, run the following from your terminal:
+If you want to try out the libraries, you can for example [install @cfstratos/ajsf-material package from NPM](https://www.npmjs.com/package/@cfstratos/ajsf-material) which uses `material-angular` UI. You can use either [NPM](https://www.npmjs.com) or [Yarn](https://yarnpkg.com). To install with NPM, run the following from your terminal:
 
 ```shell
-npm install @ajsf/material
+npm install @cfstratos/ajsf-material
 ```
 
 With YARN, run the following:
 
 ```shell
-yarn add @ajsf/material
+yarn add @cfstratos/ajsf-material
 ```
 
 Then import `MaterialDesignFrameworkModule` in your main application module like this:
@@ -51,7 +51,7 @@ Then import `MaterialDesignFrameworkModule` in your main application module like
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
-import { MaterialDesignFrameworkModule } from '@ajsf/material';
+import { MaterialDesignFrameworkModule } from '@cfstratos/ajsf-material';
 
 import { AppComponent } from './app.component';
 
@@ -68,10 +68,10 @@ export class AppModule { }
 
 Four framework modules are currently included, the import is the same as above :
 
-* MaterialDesignFrameworkModule from @ajsf/material — Material Design
+* MaterialDesignFrameworkModule from @cfstratos/ajsf-material — Material Design
 * Bootstrap3FrameworkModule from @ajsf/bootstrap3 — Bootstrap 3
 * Bootstrap4FrameworkModule from @ajsf/bootstrap4 — Bootstrap 4
-* JsonSchemaFormModule from @ajsf/core — plain HTML (for testing)
+* JsonSchemaFormModule from @cfstratos/ajsf-core — plain HTML (for testing)
 
 It is also possible to load multiple frameworks and switch between them at runtime, like the example playground on GitHub. But most typical sites will just load one framework.
 
@@ -433,7 +433,7 @@ const yourNewWidgets = {
 ...or...
 
 ```javascript
-import { WidgetLibraryService } from '@ajsf/core';
+import { WidgetLibraryService } from '@cfstratos/ajsf-core';
 ...
 constructor(private widgetLibrary: WidgetLibraryService) { }
 ...
@@ -473,7 +473,7 @@ const yourCustomFramework = {
 ...or...
 
 ```javascript
-import { FrameworkLibraryService } from '@ajsf/core';
+import { FrameworkLibraryService } from '@cfstratos/ajsf-core';
 ...
 constructor(private frameworkLibrary: FrameworkLibraryService) { }
 ...

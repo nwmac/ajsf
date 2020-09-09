@@ -1,6 +1,6 @@
 import { AbstractControl } from '@angular/forms';
 import { Component, Input, OnInit } from '@angular/core';
-import { JsonSchemaFormService } from '@ajsf/core';
+import { JsonSchemaFormService } from '@cfstratos/ajsf-core';
 
 // TODO: Add this control
 

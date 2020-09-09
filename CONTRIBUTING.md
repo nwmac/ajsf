@@ -65,8 +65,8 @@ $ yarn start
 
 You can stop the demo application.
 The tricky part now is to run concurrently both the demo application & the library in watch mode.
-So, first choose which library you want to change then run `$ ng build @ajsf/core --watch` for example
-to build in watch mode the `@ajsf/core`.
+So, first choose which library you want to change then run `$ ng build @cfstratos/ajsf-core --watch` for example
+to build in watch mode the `@cfstratos/ajsf-core`.
 Now let's start the demo application in watch mode too. So, open a new terminal and run `$ ng serve` and there you go.
 This method is tricky but it works perfectly in all environments (I tried other methods like npm-run-all
 or concurrently packages but angular-cli build doesn't restart after a failed build).

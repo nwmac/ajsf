@@ -129,7 +129,7 @@
         }
       }
     },
-    "@ajsf/core": {
+    "@cfstratos/ajsf-core": {
       "root": "projects/ajsf-core",
       "sourceRoot": "projects/ajsf-core/src",
       "projectType": "library",
@@ -169,7 +169,7 @@
         }
       }
     },
-    "@ajsf/bootstrap4": {
+    "@cfstratos/bootstrap4": {
       "projectType": "library",
       "root": "projects/ajsf-bootstrap4",
       "sourceRoot": "projects/ajsf-bootstrap4/src",
@@ -209,7 +209,7 @@
         }
       }
     },
-    "@ajsf/bootstrap3": {
+    "@cfstratos/bootstrap3": {
       "projectType": "library",
       "root": "projects/ajsf-bootstrap3",
       "sourceRoot": "projects/ajsf-bootstrap3/src",
@@ -249,7 +249,7 @@
         }
       }
     },
-    "@ajsf/material": {
+    "@cfstratos/ajsf-material": {
       "projectType": "library",
       "root": "projects/ajsf-material",
       "sourceRoot": "projects/ajsf-material/src",

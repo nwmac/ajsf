@@ -19,7 +19,7 @@ before_script:
 
 jobs:
   include:
-    - stage: Build @ajsf/core
+    - stage: Build @cfstratos/ajsf-core
       name: ajsf/core
       script:
         - yarn build:core
@@ -36,7 +36,7 @@ jobs:
         - yarn build:core
         - yarn build:bs4
         - yarn test:bs4 --browsers=ChromeHeadlessNoSandbox --codeCoverage=true --watch=false
-    - stage: Build @ajsf/material
+    - stage: Build @cfstratos/ajsf-material
       name: ajsf/material
       script:
         - yarn build:core
