@@ -1,5 +1,5 @@
 {
-  "name": "@cfstratos/ajsf-material",
+  "name": "@ajsf/material",
   "version": "0.0.0",
   "description": "Angular JSON Schema Form builder using Angular Material UI",
   "author": "https://github.com/hamzahamidi/ajsf/graphs/contributors",
